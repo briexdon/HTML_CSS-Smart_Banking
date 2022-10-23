@@ -482,7 +482,7 @@ body {
   flex-direction: row;
   height: 695px;
   margin-top: 122px;
-  background-image: url("../images/fullhdNewletter.png");
+  background-image: url("images/fullhdNewletter.png");
   background-size: cover;
 }
 .newsletter_text {

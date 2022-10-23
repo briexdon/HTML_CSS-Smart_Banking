@@ -1,0 +1,670 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+body {
+  background-color: #f8fcff;
+  margin: 0;
+}
+
+/* Navigation Bar */
+
+.Navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 90px 0px 70px;
+}
+
+.Nav_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 17%;
+}
+.Nav_logo {
+  margin: auto;
+  padding-right: 12%;
+}
+.Nav_text_about,
+.Nav_text_how {
+  padding-right: 60px;
+}
+.Nav_bag {
+  height: 50px;
+  width: 50px;
+  margin-right: 17.5%;
+}
+
+/* header middle info */
+
+.header_content_and_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 47px 131px 116px 102px;
+}
+/* header content / visa-card */
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.header_content-bg {
+  background: rgba(33, 158, 228, 0.06);
+  filter: blur(150px);
+  position: absolute;
+  width: 622px;
+  height: 340px;
+  left: -150px;
+  top: 80px;
+}
+.hc_tittle {
+  margin-top: 65px;
+  margin-bottom: 48px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #222223;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.more_circle {
+  position: absolute;
+  width: 205px;
+  height: 70px;
+  left: -14px;
+  top: 158px;
+  border-radius: 50%;
+  border: 3px solid #ff8a1f;
+}
+
+.hc_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #535354;
+  padding-bottom: 40px;
+}
+.hc_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 182px;
+  height: 50px;
+  position: relative;
+}
+.hc_btn_icon > img {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+}
+
+.hc_btn_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 19px;
+  color: #222223;
+  padding-left: 18px;
+}
+
+/* visa card  */
+.header_card {
+  width: 724px;
+  height: 422px;
+  position: relative;
+}
+.header_card > img {
+  position: absolute;
+  top: -30px;
+  right: 1px;
+}
+/* header  group */
+
+.header_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 131px 94px 105px;
+}
+.hg_hot_deals {
+  display: flex;
+  flex-direction: column;
+  width: 233px;
+  height: 154px;
+  position: relative;
+  padding-top: 12.5px;
+}
+
+.hot_deals_icon {
+  position: absolute;
+  left: 52px;
+  bottom: 88px;
+}
+
+.hot_deals_tittle {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #222223;
+  padding-bottom: 18px;
+}
+
+.hot_deals_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #5f5f64;
+}
+
+.hg_features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hg_features_one,
+.hg_features_two,
+.hg_features_three {
+  display: flex;
+  flex-direction: column;
+  width: 189px;
+  padding-left: 120px;
+}
+.hg_features_one_tittle,
+.hg_features_two_tittle,
+.hg_features_three_tittle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #17181a;
+  padding-top: 30px;
+  padding-bottom: 18px;
+}
+
+.hg_features_one_text,
+.hg_features_two_text,
+.hg_features_three_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #5f5f64;
+}
+
+/* advantages */
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  height: 417px;
+  background: rgba(82, 192, 255, 0.25);
+  position: relative;
+}
+.elipse {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -35px;
+}
+.advantages-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 134px;
+}
+.advantages-block_1 {
+  margin-right: 301px;
+}
+.advantages-block_1,
+.advantages-block_2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 144px;
+}
+.adv_block_1-tittle,
+.adv_block_2-tittle {
+  padding-bottom: 16px;
+  width: 273px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #202020;
+}
+.adv_blockl_1-text,
+.adv_blockl_2-text {
+  width: 256px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #5f5f64;
+}
+
+/* customer section  */
+
+.customer {
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.customer-top {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 96px;
+  margin-left: 397px;
+  margin-right: 397px;
+}
+.customer-top_tittle > h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #0d1111;
+}
+.customer-top_descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #767e7e;
+  width: 646px;
+  text-align: justify;
+}
+.customer-top_descr_2 {
+  text-align: center;
+}
+.customer-bottom {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  margin-top: 91px;
+  margin-bottom: 73px;
+  border: 1.4px solid #a9b3ab;
+  border-left: none;
+  border-right: none;
+}
+
+.customer-bottom_product {
+  padding-left: 55px;
+  padding-right: 53px;
+}
+.customer-bottom_likes {
+  padding-left: 139px;
+  padding-right: 139px;
+  border-left: 1.4px solid #a9b3ab;
+}
+.customer-bottom_sale {
+  padding-left: 89px;
+  padding-right: 103px;
+  border-left: 1.4px solid #a9b3ab;
+}
+.customer-bottom_customers {
+  padding-left: 73px;
+  padding-right: 55px;
+  border-left: 1.4px solid #a9b3ab;
+}
+
+.customer-bottom_product_tittle,
+.customer-bottom_likes_titte,
+.customer-bottom_sale_tittle,
+.customer-bottom_customers_tittle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  color: #718176;
+  padding-top: 70px;
+  padding-bottom: 11px;
+}
+.customer-bottom_product_descr,
+.customer-bottom_likes_descr,
+.customer-bottom_sale_descr,
+.customer-bottom_customers_descr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding-bottom: 67px;
+}
+
+/* features block  */
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 49px;
+  margin-right: 200px;
+  margin-left: 90px;
+  height: 619px;
+}
+
+.features_graph {
+  margin-right: 80px;
+}
+.features_descr {
+  display: flex;
+  flex-direction: column;
+  width: 458px;
+}
+.features_descr_top {
+  display: flex;
+  flex-direction: column;
+}
+.features_descr_tittle {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+  color: #192430;
+}
+.features_descr_text {
+  padding-top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #727272;
+  width: 418px;
+}
+.features_descr_bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+.fdb_strategic {
+  display: flex;
+  flex-direction: row;
+}
+.fdb_strategic-bg {
+  background: #ffffff;
+  box-shadow: 0px 28px 60px rgba(152, 152, 152, 0.15);
+  border-radius: 50%;
+  width: 60px;
+  height: 58px;
+  position: relative;
+}
+.fdb_strategic-bg > img {
+  width: 30px;
+  height: 29px;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.fdb_shedule {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.fdb_shedule-bg {
+  background: #ffffff;
+  box-shadow: 0px 28px 60px rgba(152, 152, 152, 0.15);
+  border-radius: 50%;
+  width: 60px;
+  height: 58px;
+  position: relative;
+}
+.fdb_shedule-bg > img {
+  width: 30px;
+  height: 29px;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.fdb_strategic_block,
+.fdb_shedule_block {
+  padding-left: 30px;
+}
+.fdb_strategic_tittle,
+.fdb_shedule_tittle {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #222222;
+  padding-bottom: 9px;
+}
+.fdb_strategic_descr,
+.fdb_shedule_descr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  color: #727272;
+  width: 291px;
+}
+
+/* newsletter section   */
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 522px;
+  margin-top: 122px;
+  background: #41b3f4;
+}
+.newsletter_visacard {
+  position: relative;
+  left: -10%;
+  top: -200px;
+}
+.newsletter_text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 366px;
+}
+.newsletter_subtext {
+  display: flex;
+  flex-direction: column;
+  margin-top: 144px;
+}
+.newsletter_subtext_txt {
+  width: 120px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #414449;
+}
+.newsletter_subtext_icon {
+  margin-top: 28px;
+}
+.newsletter_border_pillar {
+  width: 8px;
+  height: 133px;
+  background: #718176;
+  margin-top: 118px;
+  margin-left: 75px;
+  margin-right: 81px;
+}
+.newsletter_tittle_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 114px;
+}
+.newsltetter_tittle {
+  width: 430px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #000000;
+}
+.newsletter_btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 160px;
+  height: 58px;
+  background: #e15c19;
+  margin-top: 42px;
+}
+.newsletter_btn:hover {
+  cursor: pointer;
+  background: #e97d47;
+}
+/* footer section  */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 104px 370px 52px 335px;
+}
+.footer_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 335px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #404041;
+}
+.footer_middle {
+  margin: auto;
+}
+.footer_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #404041;
+}
+.footer_righgt_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fr_icon_facebook {
+  margin-right: 29px;
+}
+.fr_icon_instagram {
+  margin-right: 28px;
+}
+.footer_right_log {
+  margin-right: 61px;
+}
+.footer_right_sign {
+  margin-right: 47px;
+}
+
+.footer_right_sign,
+.footer_right_log,
+.fr_icon_instagram,
+.fr_icon_facebook,
+.fr_icon_youtube:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  /* navigation */
+  .Nav_text {
+    margin-left: 5%;
+  }
+  .Nav_logo {
+    margin: auto;
+    padding-right: 19%;
+  }
+
+  .Nav_bag {
+    height: 50px;
+    width: 50px;
+    margin-right: 6%;
+  }
+  /* features */
+  .features_descr_tittle {
+    font-size: 46px;
+  }
+  .fdb_strategic_tittle {
+    font-style: 18px;
+  }
+  /* newsletter */
+  .newsletter_visacard {
+    left: -12%;
+  }
+
+  /* footer  */
+  .footer {
+    margin: 104px 135px 52px 114px;
+  }
+}

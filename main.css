@@ -11,9 +11,9 @@ body {
 .Navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 40px 133px 0px 107px;
+  margin: 40px 90px 0px 70px;
 }
 
 .Nav_text {
@@ -27,14 +27,20 @@ body {
   letter-spacing: 0.01em;
   text-align: center;
   text-transform: uppercase;
+  margin-left: 17%;
+}
+.Nav_logo {
+  margin: auto;
+  padding-right: 12%;
 }
 .Nav_text_about,
 .Nav_text_how {
-  padding-right: 55px;
+  padding-right: 60px;
 }
 .Nav_bag {
   height: 50px;
   width: 50px;
+  margin-right: 17.5%;
 }
 
 /* header middle info */
@@ -42,7 +48,7 @@ body {
 .header_content_and_card {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin: 47px 131px 116px 102px;
 }
 /* header content / visa-card */
@@ -50,6 +56,7 @@ body {
 .header_content {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .header_content-bg {
   background: rgba(33, 158, 228, 0.06);
@@ -57,8 +64,8 @@ body {
   position: absolute;
   width: 622px;
   height: 340px;
-  left: -20px;
-  top: 212px;
+  left: -150px;
+  top: 80px;
 }
 .hc_tittle {
   margin-top: 65px;
@@ -77,8 +84,8 @@ body {
   position: absolute;
   width: 205px;
   height: 70px;
-  left: 92px;
-  top: 295px;
+  left: -14px;
+  top: 158px;
   border-radius: 50%;
   border: 3px solid #ff8a1f;
 }
@@ -133,7 +140,7 @@ body {
 .header_group {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0px 131px 94px 105px;
 }
 .hg_hot_deals {
@@ -231,7 +238,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 134px 314px 0px 300px;
+  margin-top: 134px;
 }
 .advantages-block_1 {
   margin-right: 301px;
@@ -308,9 +315,9 @@ body {
 .customer-bottom {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   text-transform: uppercase;
-  margin: 91px 175px 73px 175px;
+  margin-top: 91px;
+  margin-bottom: 73px;
   border: 1.4px solid #a9b3ab;
   border-left: none;
   border-right: none;
@@ -370,15 +377,19 @@ body {
 .features {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 49px;
-  padding: 56px 127px 56px 67px;
+  margin-right: 200px;
+  margin-left: 90px;
   height: 619px;
+}
+
+.features_graph {
+  margin-right: 80px;
 }
 .features_descr {
   display: flex;
   flex-direction: column;
-  margin-left: 113px;
   width: 458px;
 }
 .features_descr_top {
@@ -480,26 +491,28 @@ body {
 .newsletter {
   display: flex;
   flex-direction: row;
-  height: 695px;
+  justify-content: center;
+  height: 522px;
   margin-top: 122px;
-  background-image: url("images/fullhdNewletter.png");
-  background-size: cover;
+  background: #41b3f4;
+}
+.newsletter_visacard {
+  position: relative;
+  left: -10%;
+  top: -200px;
 }
 .newsletter_text {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 226px;
-  margin-top: 164px;
+  margin-left: 366px;
 }
-
-.newsletter_tittle_btn {
+.newsletter_subtext {
   display: flex;
   flex-direction: column;
-  margin-left: 224px;
+  margin-top: 144px;
 }
-
-.newsletter_subtext {
+.newsletter_subtext_txt {
+  width: 120px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -507,21 +520,32 @@ body {
   line-height: 27px;
   letter-spacing: 0.01em;
   color: #414449;
-  width: 132px;
-  padding-top: 30px;
 }
-.newsletter_tittle {
+.newsletter_subtext_icon {
+  margin-top: 28px;
+}
+.newsletter_border_pillar {
+  width: 8px;
+  height: 133px;
+  background: #718176;
+  margin-top: 118px;
+  margin-left: 75px;
+  margin-right: 81px;
+}
+.newsletter_tittle_btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 114px;
+}
+.newsltetter_tittle {
   width: 430px;
-  height: 140px;
-
   font-family: "Bai Jamjuree", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 90px;
+  line-height: 70px;
   letter-spacing: -0.02em;
   text-transform: capitalize;
-
   color: #000000;
 }
 .newsletter_btn {
@@ -531,25 +555,26 @@ body {
   font-size: 16px;
   line-height: 16px;
   color: #ffffff;
-
-  width: 120px;
-  margin-top: 95px;
-  background: #e15c19;
   text-align: center;
-  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 160px;
+  height: 58px;
+  background: #e15c19;
+  margin-top: 42px;
 }
 .newsletter_btn:hover {
   cursor: pointer;
-  background: #f58249;
+  background: #e97d47;
 }
-
 /* footer section  */
 
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 104px 194px 92px 165px;
+  justify-content: center;
+  margin: 104px 370px 52px 335px;
 }
 .footer_left {
   display: flex;
@@ -612,21 +637,34 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  .newsletter {
-    height: 522px;
-    background-size: cover;
+  /* navigation */
+  .Nav_text {
+    margin-left: 5%;
   }
-  .newsletter_text {
-    margin-top: 114px;
-    margin-left: 172px;
+  .Nav_logo {
+    margin: auto;
+    padding-right: 19%;
   }
-  .newsletter_tittle_btn {
-    margin-left: 164px;
+
+  .Nav_bag {
+    height: 50px;
+    width: 50px;
+    margin-right: 6%;
   }
-  .newsletter_tittle {
-    line-height: 70px;
+  /* features */
+  .features_descr_tittle {
+    font-size: 46px;
   }
-  .newsletter_btn {
-    margin-top: 42px;
+  .fdb_strategic_tittle {
+    font-style: 18px;
+  }
+  /* newsletter */
+  .newsletter_visacard {
+    left: -12%;
+  }
+
+  /* footer  */
+  .footer {
+    margin: 104px 135px 52px 114px;
   }
 }
